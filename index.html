@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegan_Store</title>
+    <link href="./vegan_store.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/51e1f92e7c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+        <img id="logo" src="./assets/logo1.jpg" alt="logo" />
+              <div class="dropdown-wrapper">
+                <i id="menu-icon" class="fas fa-bars"></i>
+                <div class="dropdown">
+                  <a>Demo Pages <i class="fas fa-caret-down"></i></a>
+                  <a>Watch Video</a>
+                  <a>Blocks <i class="fas fa-caret-down"></i></a>
+                </div>
+              </div>
+          
+              <div>
+                <div class="dropdown-wrapper">
+                  <a class="menu-item">Demo Pages<i class="fas fa-caret-down"></i></a>
+                  <div class="dropdown">
+                    <a>Menu Item 1</a>
+                    <a>Menu Item 2</a>
+                    <a>Menu Item 3</a>
+                  </div>
+                </div>
+                <a class="menu-item">Watch Video</i></a>
+                <div class="dropdown-wrapper">
+                  <a class="menu-item">Blocks<i class="fas fa-caret-down"></i></a>
+                  <div class="dropdown">
+                    <a>Product 1</a>
+                    <a>Product 2</a>
+                    <a>Product 3</a>
+                  </div>
+                </div>
+                <button id="primary-button">Buy Now</button>
+              </div>
+            </nav>
+            <div id="overlay"></div>
+            <div id="mobile-form">
+            <form id="Buy-Now">
+              <p id="form-heading">Welcome Guest!!!</p>
+              <input class="input-item" type="text" placeholder="Full Name"><br />
+              <input class="input-item" type="email" placeholder="Email"><br />
+              <input class="input-item" type="tel" placeholder="Phone Number"><br /><br />
+              <label for="Veggies">Veggies :</label>
+              <select id="Veggies" name="Veggies">
+                <option value="Potato">Potato</option>
+                <option value="Tomato">Tomato</option>
+                <option value="Onions" selected>Onions</option>
+                <option value="Brinjal">Brinjal</option>
+                <option value="Cucumber">Cucumber</option>
+                <option value="Capsicum">Capsicum</option>
+                <option value="Chillies">Chillies</option>
+                <option value="Ladies-Finger">Ladies-Finger</option>
+                <option value="Carrot">Carrot</option>
+                <option value="Drumstic">Drumstick</option>
+                <option value="Radish">Radish</option>
+                <option value="Cabbage">Cabbage</option>
+                <option value="Brocauli">Brocauli</option>
+                <option value="Cauliflower">Cauliflower</option>
+              </select> <select class="qty" name="Veggies">
+                <option value="QTY" selected>QTY</option>
+                <option value="500gms">500 GMS</option>
+                <option value="1KG">1 KG</option>
+                <option value="2KG">2 KG</option>
+                <option value="3KG">3 KG</option>
+                <option value="4KG">4 KG</option>
+                <option value="5KG">5 KG</option>
+                <option value="6KG">6 KG</option>
+                <option value="7KG">7 KG</option>
+                <option value="8KG">8 KG</option>
+              </select><br /><br />
+              <label for="Leafy-Veggies">Leafy-Veggies :</label>
+              <select id="LVeggies" name="LVeggies">
+                <option value="Kale">Kale</option>
+                <option value="Collard-greens">Collard-greens</option>
+                <option value="Spinach" selected>Spinach</option>
+                <option value="Beet-greens">Beet-greens</option>
+                <option value="Romaine-Lettuce">Romaine-Lettuce</option>
+                <option value="Mint">Mint</option>
+                <option value="Coriander">Coriander</option>
+                <option value="Curry-Leaves">Curry-leaves</option>
+              </select>
+              <select class="qty" name="LVeggies">
+                <option value="QTY" selected>QTY</option>
+                <option value="2PCS">2 PCS</option>
+                <option value="3PCS">3 PCS</option>
+                <option value="4PCS">4 PCS</option>
+                <option value="5PCS">5 PCS</option>
+                <br />
+                <input type="button" value="Add to Cart" id="btn">
+            </form>
+        </div>
+            <div id="display-message-wrapper">
+              <h3>Thank you for order with us!!</h3>
+              <h4>Our Executive will make a call you about order Confirmation</h4>
+              <input type="button" value="OK" id="display-msg-btn">
+            </div>
+            <div id="help-div">
+              <h3> For Enquiries Call Grey</h3>
+              <h5><i class="fas fa-phone-volume"></i>+91-987654321....</h5>
+              <img src="./assets/service_Executive.jpeg" alt="" />
+            </div>
+          
+        <main>
+            <section id="section1">
+                <div id="section1-main-text">
+                    <h1>Vegan Store Simple Website Template</h1>
+                    <p id="sec1para">With nutrition, all the vital functions of the body are connected. It is the source of the
+                        development of tissues and cells, their constant renewal, the saturation of man with energy.</p>
+                </div>
+            </section>
+            <section id="section2">
+                <div class="sec-item" id="first">
+                    <i class="fa fa-cut"></i>
+                    <h3>Step 01.</h3>
+                    <p class="sec2para">Vegetables are an integral part of the human diet. They are extremely useful because of the high
+                        content of carbohydrates, various acids, vitamins and active elements in the form, easy for
+                        digestion.</p>
+                </div>
+                <div class="sec-item" id="second">
+                    <i class="fa fa-paint-brush"></i>
+                    <h3>Step 02.</h3>
+                    <p class="sec2para">Fresh tomatoes are ideal for replenishing the loss of minerals. These vegetables contain a lot of
+                        acids that our body needs for full-fledged work.</p>
+                </div>
+                <div class="sec-item" id="third">
+                    <i class="fa fa-shopping-bag"></i>
+                    <h3>Step 03.</h3>
+                    <p class="sec2para">In the content of vitamin C, sweet peppers are superior to lemons and even black currants! The
+                        greatest amount of vitamin is contained around the stalk, that is, in the part of the product
+                        that is usually cut during cleaning.</p>
+                </div>
+                <div class="sec-item" id="fourth">
+                    <i class="far fa-smile"></i>
+                    <h3>Step 04.</h3>
+                    <p class="sec2para">If you sometimes eat hot chili peppers, this will help normalize cerebral circulation, ease the
+                        condition with bronchial asthma, cough, sore throat, flu.</p>
+                </div>
+            </section>
+
+            <section id="store-section">
+                <p id="fresh-food-heading">Fresh Food</p>
+                <h3>Our Vegan Store!</h3>
+                <p id="store-desc">Radish contains a lot of fiber, pectin and mineral salts.</p>
+                <div id="store-items-wrapper">
+                    <div class="store-item">
+                        <div class="icon-wrapper"><i class="fa fa-camera"></i></div>
+                        <h3>Fresh Vegetables</h3>
+                        <p>Use for cooking several types of vegetable oil.</p>
+                    </div>
+                    <div class="store-item">
+                        <div class="icon-wrapper"><i class="fa-rocket fa"></i></div>
+                        <h3>High Quality</h3>
+                        <p>This is the best source of essential fatty acids for the body.</p>
+                    </div>
+                    <div class="store-item">
+                        <div class="icon-wrapper"><i class="fab fa-twitter"></i></div>
+                        <h3>Sale</h3>
+                        <p>It is very good, if in the kitchen there will always be several bottles with different oils.</p>
+                    </div>
+                    <div class="store-item">
+                        <div class="icon-wrapper"><i class="fab fa-weixin"></i></div>
+                        <h3>Best Price</h3>
+                        <p>Remember that unrefined oils are not suitable for heat treatment.</p>
+                    </div>
+                </div>
+            </section>
+       <section id="testimonials-section">
+                <p id="testimonials-heading">Fresh Food</p>
+                <h3>Our Vegan Shop!</h3>
+                <p id="testimonials-desc">According to experts, any habit can be formed in 21 days. The same statement applies to healthy eating.</p>
+
+                <div id="testimonials-wrapper">
+                    <div class="testimonial-item">
+                        <img src="./assets/face5.jpg" />
+                        <p class="testimonial-message">Sales consultants are very polite. Many of the products have tried and are ready to prompt and recommend to customers. The staff shows that they completely share the philosophy of proper nutrition, if you can say so.</p>
+                        <h3 class="testimonial-by">VERONICA KING</h3>
+                        <p class="job-role">Cook</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="./assets/face6.jpg" />
+                        <p class="testimonial-message">The assortment is very wide. From useful organic oils, cereals and teas to specific products for vegetarians, such as sausages and pies without meat.</p>
+                        <h3 class="testimonial-by">JIM CASH</h3>
+                        <p class="job-role">Seller</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="./assets/face7.jpg" />
+                        <p class="testimonial-message">I want to say a huge thank you to the management of the store and all its employees, I'm not a vegetarian, it would seem that the store is not for me, but it's not so, any person who comes here will find something useful.</p>
+                        <h3 class="testimonial-by">PETER GOODMAN</h3>
+                        <p class="job-role">Manager</p>
+                    </div>
+                </div>
+            </section>
+            <section id="follow-section">
+                <div id="left-section">
+                    <img src="./assets/strawberries_background.jpg" alt="Strawberry" />
+                </div>
+                <div id="right-section">
+                    <div id="text-wrapper">
+                        <h3>Follow Us</h3>
+                        <p>A wide range of products; many unusual and tasty products; courteous staff.</p>
+
+                        <input id="subscribe-email" placeholder="Your Email" />
+                        <input id="subscribe-btn" type="submit" value="Subscribe" />
+                    </div>
+                </div>
+            </section>
+
+            <section id="stats-section">
+                <div id="stats-wrapper">
+                    <div class="stats-item">
+                        <h3>7</h3>
+                        <p>Year of experiences</p>
+                    </div>
+                    <div class="stats-item">
+                        <h3>123k</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stats-item">
+                        <h3>72k</h3>
+                        <p>100% Satisfaction</p>
+                    </div>
+                    <div class="stats-item">
+                        <h3>13k</h3>
+                        <p>Detox Smoothies</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="video-section">
+                <div>
+                    <h3>Vimeo Video</h3>
+                    <div id="line-separator"></div>
+
+                    <iframe frameborder="0" allowfullscreen="" src="https://player.vimeo.com/video/275412279"></iframe>
+                </div>
+            </section>
+
+            <section id="address-section">
+                <div id="address-wrapper">
+                    <div>
+                        <p class="green-heading">Contact Us</p>
+                        <h3 class="section-heading">Address Information</h3>
+                        <p class="section-description">Overeating is one of the most common causes of overweight and digestive problems.</p>
+
+                        <h4 class="address-heading">London Store</h4>
+                        <p class="address-lines">
+                            Roeterseiland Campus Building E<br>6th floor London<br>Monday to Friday : 9am to 8pm<br>examplemail.mail.com</p>
+
+                        <h4 class="address-heading">Berlin Store</h4>
+                        <p class="address-lines">
+                            Roeterseiland Campus Building E<br>6th floor London<br>Monday to Friday : 9am to 8pm<br>examplemail.mail.com</p>
+                    </div>
+                    <div>
+                        <p class="green-heading">Meet Our Team</p>
+                        <h3 class="section-heading">Get In Touch</h3>
+                        <p class="section-description">The task of proper nutrition - to remove from the diet harmful food and enrich it useful.</p>
+
+                        <form>
+                            <input class="input-box" type="text" name="name" placeholder="Name" />
+                            <input class="input-box" type="text" name="phone" placeholder="Phone" />
+                            <input class="input-box" type="text" name="subject" placeholder="Subject" />
+                            <input class="input-box" type="email" name="email" placeholder="E-mail" />
+                            <textarea class="input-box">Message</textarea>
+                            <input id="btn-submit" class="primary-button" type="submit" value="Submit Now">
+                        </form>
+                    </div>
+                </div>
+
+      </main>
+        
+        <footer>© Copyright 2018 Mobirise - All Rights Reserved</footer>
+    </header>
+    <script src="./vegan_store.js"></script>
+</body>
+</html>
